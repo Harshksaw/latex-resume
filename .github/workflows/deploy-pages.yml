@@ -25,7 +25,6 @@ jobs:
         uses: xu-cheng/latex-action@v3
         with:
           root_file: harshsaw.tex
-          latexmk_use_xelatex: false
 
       - name: Prepare Pages artifact
         run: |
